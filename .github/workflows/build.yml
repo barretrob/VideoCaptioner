@@ -1,0 +1,5 @@
+- name: Install PyInstaller
+  run: pip install pyinstaller
+
+- name: Install Inno Setup
+  run: choco install innosetup -y
