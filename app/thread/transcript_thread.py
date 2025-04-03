@@ -20,7 +20,7 @@ class TranscriptThread(QThread):
     finished = pyqtSignal(TranscribeTask)
     progress = pyqtSignal(int, str)
     error = pyqtSignal(str)
-    MAX_DAILY_ASR_CALLS = 40
+    MAX_DAILY_ASR_CALLS = 9999999999
 
     def __init__(self, task: TranscribeTask):
         super().__init__()
